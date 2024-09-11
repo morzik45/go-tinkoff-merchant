@@ -12,6 +12,8 @@ import (
 func New(log utils.Logger, terminalKey, password string) *Manager {
 	return &Manager{
 		terminalKey: terminalKey,
+		password: password,
+		logger: log
 	}
 }
 
