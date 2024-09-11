@@ -1,4 +1,4 @@
-module github.com/ReanSn0w/go-tinkoff-merchant
+module github.com/morzik45/go-tinkoff-merchant
 
 go 1.20
 
