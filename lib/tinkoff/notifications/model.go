@@ -12,7 +12,7 @@ type PaymentItem struct {
 	Status      string // Статус платежа
 	Token       string // Подпись запроса
 
-	PaymentID        string                 `json:"PaymentId,omitempty"`        // Идентификатор транзакции в системе банка
+	PaymentID        int64                  `json:"PaymentId,omitempty"`        // Идентификатор транзакции в системе банка
 	ErrorCode        string                 `json:"ErrorCode,omitempty"`        // Код ошибки, 0 - если успешно
 	Amount           int64                  `json:"Amount,omitempty"`           // Сумма платежа в копейках
 	CardId           int64                  `json:"CardId,omitempty"`           // Идентификатор привязанной карты
