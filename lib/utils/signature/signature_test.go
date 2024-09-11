@@ -3,7 +3,7 @@ package signature_test
 import (
 	"testing"
 
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/utils/signature"
+	"github.com/morzik45/go-tinkoff-merchant/lib/utils/signature"
 )
 
 func Test_MakeSignature(t *testing.T) {

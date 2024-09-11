@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/tinkoff"
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/tinkoff/payments"
 	"github.com/go-pkgz/lgr"
+	"github.com/morzik45/go-tinkoff-merchant/lib/tinkoff"
+	"github.com/morzik45/go-tinkoff-merchant/lib/tinkoff/payments"
 )
 
 func TestSafeDeal_AddCard(t *testing.T) {

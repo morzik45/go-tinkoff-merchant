@@ -6,12 +6,12 @@ import (
 	"net/http/httputil"
 	"time"
 
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/tinkoff/customer"
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/tinkoff/notifications"
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/tinkoff/partner"
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/tinkoff/payments"
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/tinkoff/safedeal"
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/utils"
+	"github.com/morzik45/go-tinkoff-merchant/lib/tinkoff/customer"
+	"github.com/morzik45/go-tinkoff-merchant/lib/tinkoff/notifications"
+	"github.com/morzik45/go-tinkoff-merchant/lib/tinkoff/partner"
+	"github.com/morzik45/go-tinkoff-merchant/lib/tinkoff/payments"
+	"github.com/morzik45/go-tinkoff-merchant/lib/tinkoff/safedeal"
+	"github.com/morzik45/go-tinkoff-merchant/lib/utils"
 )
 
 func New(debug bool, log utils.Logger) *Tinkoff {

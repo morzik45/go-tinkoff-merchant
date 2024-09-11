@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/tinkoff/customer"
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/tinkoff/payments"
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/utils"
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/utils/signature"
+	"github.com/morzik45/go-tinkoff-merchant/lib/tinkoff/customer"
+	"github.com/morzik45/go-tinkoff-merchant/lib/tinkoff/payments"
+	"github.com/morzik45/go-tinkoff-merchant/lib/utils"
+	"github.com/morzik45/go-tinkoff-merchant/lib/utils/signature"
 )
 
 const (

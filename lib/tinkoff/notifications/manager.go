@@ -5,15 +5,15 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/utils"
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/utils/signature"
+	"github.com/morzik45/go-tinkoff-merchant/lib/utils"
+	"github.com/morzik45/go-tinkoff-merchant/lib/utils/signature"
 )
 
 func New(log utils.Logger, terminalKey, password string) *Manager {
 	return &Manager{
 		terminalKey: terminalKey,
-		password: password,
-		logger: log
+		password:    password,
+		logger:      log,
 	}
 }
 

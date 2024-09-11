@@ -3,9 +3,9 @@ package partner_test
 import (
 	"testing"
 
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/tinkoff"
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/tinkoff/partner"
 	"github.com/go-pkgz/lgr"
+	"github.com/morzik45/go-tinkoff-merchant/lib/tinkoff"
+	"github.com/morzik45/go-tinkoff-merchant/lib/tinkoff/partner"
 )
 
 var (

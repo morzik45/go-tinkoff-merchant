@@ -3,8 +3,8 @@ package token_test
 import (
 	"testing"
 
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/utils/token"
 	"github.com/go-pkgz/lgr"
+	"github.com/morzik45/go-tinkoff-merchant/lib/utils/token"
 )
 
 func Test_New(t *testing.T) {

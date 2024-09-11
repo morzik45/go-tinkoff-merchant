@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/utils"
+	"github.com/morzik45/go-tinkoff-merchant/lib/utils"
 )
 
 func New(logger utils.Logger, baseURL, login, password string) (*Token, error) {

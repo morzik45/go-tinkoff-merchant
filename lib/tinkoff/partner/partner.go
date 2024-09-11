@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/utils"
-	"github.com/ReanSn0w/go-tinkoff-merchant/lib/utils/token"
+	"github.com/morzik45/go-tinkoff-merchant/lib/utils"
+	"github.com/morzik45/go-tinkoff-merchant/lib/utils/token"
 )
 
 const (
